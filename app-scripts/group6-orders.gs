@@ -27,9 +27,7 @@ function writeOrdersDataToFirebase() {
   var dataToImport = {};
   
   // Use this loop code if you want all rows in the sheet: 
-  //   for(var i = 1; i < data.length; i++) {
-  
-  for(var i = 1; i < 10; i++) { 
+  for(var i = 1; i < data.length; i++) {
     var OrderID = data[i][0];
     var CustomerID = data[i][1];
     Logger.log(OrderID + '-' + CustomerID);
@@ -77,9 +75,7 @@ function writeOrderDetailsDataToFirebase() {
   // Logger.log(data.length); // the number of rows in the sheet
   
   // Use this loop code if you want all rows in the sheet: 
-  //   for(var i = 1; i < data.length; i++) {
-  
-  for(var i = 1; i < 10; i++) { 
+  for(var i = 1; i < data.length; i++) {
     var ID = data[i][0];
     var ProductID = data[i][1];
     Logger.log(ID + '-' + ProductID);
