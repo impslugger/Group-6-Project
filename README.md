@@ -1,2 +1,2 @@
 # Group-6-Project
-Added CSV files to GitHub Repo
+Repo contains csv files, northwind-database.sql, and multiple app scripts.
